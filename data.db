@@ -1,0 +1,5 @@
+import sqlite3 as sql
+
+db = sql.connect('data.db')
+
+db.close()
